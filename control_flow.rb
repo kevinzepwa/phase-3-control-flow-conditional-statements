@@ -1,9 +1,9 @@
 def admin_login(username, password)
   # your code here
-  if (username == "admin" || username == "ADMIN") && (password == "12345")
-    "Access granted"
-  else
+  unless (username == "admin" || username == "ADMIN") && (password == "12345")
     "Access denied"
+  else
+    "Access granted"
   end
 end
 
