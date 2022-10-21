@@ -33,6 +33,7 @@ def fizzbuzz(num)
   end
 end
 
+
 def calculator(operation, num1, num2)
   # your code here
   if operation == "+"
@@ -48,3 +49,12 @@ def calculator(operation, num1, num2)
   end
 end
 
+
+#def calculator(operation, num1, num2)
+#  # your code here
+#  (operation == "+") ? (num1 + num2) : 
+#    (operation == "-") ? (num1 - num2) : 
+#      (operation == "*") ? (num1 * num2) : 
+#        (operation == "/") ? (num1 / num2) : 
+#          (puts "Invalid operation!")
+#end
